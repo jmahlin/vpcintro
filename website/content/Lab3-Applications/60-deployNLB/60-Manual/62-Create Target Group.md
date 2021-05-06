@@ -4,9 +4,9 @@ chapter = false
 weight = 62
 +++
 
-### Create Taget Group
+### Create Target Group
 
-[Target groups](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html) is used to route requests to one or more registered targets. This is where our Auto scaling group will place EC2 instances created from our Launch template. The **Network Load Balancer** will send traffic to the Target group.
+[Target groups](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html) is used to route requests to one or more registered targets. This is where our Auto Scaling group will place EC2 instances created from our Launch template. The **Network Load Balancer** will send traffic to the Target group.
 
    ![target group](/images/nlb-tgs.png)
 1. From the **Amazon EC2** console and from the left menu, near the bottom, select **Target groups**. Click the **Create Target group** button.
